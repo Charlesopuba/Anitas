@@ -1,0 +1,93 @@
+html{
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url("images/landing.jpg");
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.holder{
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 100px;
+    height:40vh;
+    width: 100%;
+    margin-bottom: 100px;
+
+
+
+nav{
+    display: flex;
+    flex-direction: column;
+}
+.col1{
+    text-align: center;
+    height: 40px;
+}
+.foodsection{
+    background-image: url("images/foodsBg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+}
+.beverages{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 5px;
+
+}
+
+.otherlist{
+    display: flex;
+    text-align: center;
+    color:white;
+
+}
+.holder{
+    font-weight: 900;
+    
+}
+.lunch{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    width: 100%;
+    padding-right: 10px;
+}
+
+
+
+.new-container {
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.customers {
+    box-shadow: 2px 4px 12px 2px #DCDCDC;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(65, 63, 63);
+}
+
+.customers h3 {
+    color: #F15A29;
